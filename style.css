@@ -632,6 +632,10 @@ footer {
     font-size: 5rem;
 }
 
+.boost-visual span {
+    font-size: 5.5rem;
+}
+
 .weather-visual span {
     font-size: 6rem;
 }

@@ -114,12 +114,13 @@ projectLinks.forEach((button) => {
         const projectName =
             button.dataset.project;
 
-        alert(
-            `${projectName}\n\n` +
+        const details =
+            button.dataset.details ||
             `Projeto apresentado no portfólio de Luis Eduardo.\n\n` +
             `A experiência completa será disponibilizada conforme ` +
-            `o projeto for desenvolvido.`
-        );
+            `o projeto for desenvolvido.`;
+
+        alert(`${projectName}\n\n${details}`);
 
     });
 
